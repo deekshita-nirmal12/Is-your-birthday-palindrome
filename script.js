@@ -155,7 +155,7 @@ function reverseStr(str) {
       var isPalindrome = checkPalindromeForAllDateFormats(date);
   
       if(isPalindrome){
-         resultRef.innerText = 'Yay! your birthday is a palindrome!! 🥳🥳';
+         resultRef.innerText = 'Yes! your birthday is a palindrome!! 🥳🥳';
       }
       else {
         var [ctr, nextDate] = getNextPalindromeDate(date);
